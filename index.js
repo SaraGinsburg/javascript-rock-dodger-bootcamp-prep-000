@@ -80,6 +80,7 @@ function createRock(x) {
         rock.remove()
       }
     }
+    return rock;
 }
 
     /**
