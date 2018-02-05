@@ -73,10 +73,12 @@ function createRock(x) {
     if (checkCollision(rock)){
       return endGame()
     } else {
-      if rock.style.top < 360
+      if (rock.style.top < 360){
         window.requestAnimationFrame(moveRock())
-      else
+      }
+      else{
         rock.remove()
+      }
     }
 }
 
