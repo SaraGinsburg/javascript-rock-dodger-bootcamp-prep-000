@@ -74,7 +74,7 @@ function createRock(x) {
       return endGame()
     } else {
       if (rock.style.top < 360){
-        window.requestAnimationFrame(moveRock())
+        window.requestAnimationFrame(moveRock)
       }
       else{
         rock.remove()
